@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #EADFDD;
+	overflow-x: hidden;
+	display: flex;
+	justify-content: 
+}
+
+.backgroundImage-lp {
+	background-image: url('images/bg.jpg');
+	height: 100vh;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+html{
+	font-family: poppins, sans serif;
+	font-weight: 400;
+
+}
+
+.container{
+	max-width: 1140px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 400;
+	color: #282828;
+}
+h2 {
+	font-size: 50px;
+	font-weight: 500;
+	color: #ffffff;
+}
+h3 {
+	font-size: 30px;
+	font-weight: 500;
+	color: #707070;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+h5 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #282828;
+	margin-top: 24px;
+}
+h6 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #282828;
+	margin-top: 70px;
+}
+p{
+	color: #282828;
+	font-weight: 400;
+	margin-top: 10px;
+	font-size: 16px
+} 
+
+/*------ Nav ------*/
+.nav {
+	display: flex;
+	align-items: center;
+	height: 150px;
+}
+.logo {
+	flex: 1;
+}
+.itens {
+	text-align: right;
+}
+.logo a, .itens a{
+	display: inline-block;
+	vertical-align: middle;
+}
+.itens a {
+	margin-left: 80px;
+}
+ul {
+	list-style: none;
+}
+ul li{
+	float: left;
+}
+li a{
+	text-decoration: none;
+	color: #282828;
+}
+li a:hover{
+	color: #E8A689;
+}
+
+/*------ FIM Nav ------*/
+
+
+/*------ Hero ------*/
+
+.landing {
+	height: 100vh;
+	position: relative;
+}
+
+.landingWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.landingL{
+	margin-top: 150px;
+}
+
+.scroll{
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 36px;
+}
+
+.tamanhoBox {
+	width: 536px;
+	height: 291px;
+	line-height: 96px;
+}
+
+.botao {
+	width: 200px;
+	background-color: #E8A689;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	padding-top: 0.8125em;
+	padding-bottom: 0.8125em;
+	margin-top: 40px;
+	text-decoration: none;
+}
+a.botao:hover{
+	background-color: #F9BDA3
+}
+
+.landingR{
+	width: 50%;
+	margin-top: 75px;
+}
+.produtoBanner {
+	width: 100%;
+	height: 100%;
+	right: -180px;
+	position: relative;
+}
+
+/*------ FIM Hero ------*/
+
+
+/*------ Beneficios------*/
+
+.beneficios {
+	height: 840px;
+    width: 100%;
+    background-color: #e63946;
+    position: relative;
+    margin-top: 200px;
+}
+
+.imagem-produto {
+	float: right;
+}
+
+/*------ Beneficios ROXO ------*/
+
+.container-roxo {
+	width: 50%;
+	height: 50%;
+	background: #4B146D;
+}
+
+.tamanho-box-roxo {
+	width: 400px;
+	padding-top: 80px;
+	margin: auto;
+}
+
+.solução-para-seu-salao {
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+.botao-branco {
+	width: 200px;
+	background-color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	color: #4B146D;
+	position: absolute;
+	text-align: center;
+	padding-top: 0.8125em;
+	padding-bottom: 0.8125em;
+	text-decoration: none;
+}
+
+a.botao-branco:hover{
+	background-color: #ECECEC;
+}
+
+/*------ Beneficios BRANCO ------*/
+
+.container-branco {
+	width: 50%;
+	height: 50%;
+	background: #ffffff;
+}
+
+.tamanho-box-branco {
+	width: 480px;
+	height: 310px;
+	padding-top: 80px;
+	margin-left: 278px;
+}
+/*------ FIM Beneficios ------*/
+
+/*------ Seu Estilo ------*/
+
+.seu-estilo {
+	margin-top: 300px;
+}
+
+.row {
+	display: flex;
+	margin: auto;
+}
+
+.texto-titulo {
+	color: #282828;
+	font-weight: 600;
+}
+
+hr {
+	border: 1px solid #E8A689;
+	margin-top: 10.5px;
+}
+
+.imagens {
+	display: flex;
+	margin: auto;
+	align-content: space-between;
+}
+
+.foto {
+	margin: 60px;
+}
+
+/*------ FIM Seu Estilo ------*/
+
+/*------ Banner 2 ------*/
+
+.banner-2 {
+	margin-top: 240px;
+}
+
+.row-2 {
+	position: relative;
+}
+
+.fundo-banner {
+	width: 840px;
+	height: 100%;
+}
+
+.texto-banner-2 {
+	position: absolute;
+	width: 844px;
+	height: 300px;
+	padding-top: 300px;
+	margin-left: 278px;
+}
+
+/*------ FIM Banner 2 ------*/
+
+/*------ Final------*/
+
+.final {
+	width: 100%;
+	height: 100px;
+}
+/*------ FIM Final------*/
+
